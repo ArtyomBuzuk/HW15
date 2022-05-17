@@ -14,6 +14,8 @@ class OnTimeZP(id: Int, firstName: String?, secondName: String?, var hourPayment
     }
 
     companion object {
-        const val i = 8.0 * 20.8
+        val a = 8.0
+        val b = 20.8
+        val i = a * b
     }
 }

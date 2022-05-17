@@ -17,10 +17,9 @@ class Wine {
                 "USA",
                 "THJ", "Chateau Lafite "
             )
-            val d = Date()
             val df: DateFormat = SimpleDateFormat("dd/MM/yyyy")
             df.setTimeZone(TimeZone.getTimeZone("EAT"))
-            val d1: String = df.format(d)
+            val d1: String = df.format(Date())
             println(
                 "Выдержка вина под названием " + wine1.name +
                         " составляет " + wine1.Viderzhka(d1).toString() + " дней"
